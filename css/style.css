@@ -608,7 +608,6 @@ main {
   background-color: var(--link);
 }
 .main-content li {
-  /* margin-top: 34px; */
   width: 370px;
 }
 .main-content {
@@ -642,6 +641,10 @@ main {
   padding-left: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.blackout:hover,
+.blackout:focus {
+  background-color: var(--link);
 }
 
 .hov-text {
