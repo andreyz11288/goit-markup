@@ -37,6 +37,8 @@ a {
   /* text-indent: -9999px; */
 }
 
+/* Header */
+
 .studio,
 .portfolio,
 .contact {
@@ -52,6 +54,7 @@ a {
   border-bottom: 1px solid #ececec;
 }
 .header-logo {
+  min-width: 153px;
   padding-top: 24px;
   font-family: Raleway;
   font-style: normal;
@@ -76,6 +79,7 @@ a {
 }
 .nav-menu {
   display: flex;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -83,7 +87,10 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
-  margin-right: 305px;
+  /* margin-right: 305px; */
+}
+.heder-address {
+  margin-left: auto;
 }
 .section-nav-contact {
   display: flex;
