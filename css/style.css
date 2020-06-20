@@ -448,16 +448,19 @@ main {
 }
 .display-footer > a {
   display: block;
-  padding-top: 45px;
-  margin-bottom: 28px;
+  padding-top: 60px;
+  margin-bottom: 20px;
 }
 .display-footer {
-  padding-bottom: 28px;
-  margin-right: 69px;
+  padding-bottom: 60px;
+  margin-right: 147px;
 }
 #address > ul {
   width: 231px;
-  margin-top: 8px;
+  /* margin-top: 8px; */
+}
+#address > ul > li {
+  height: 21px;
 }
 #address li:not(:first-child) {
   margin-top: 9px;
@@ -479,7 +482,7 @@ main {
   color: #ffffff;
 }
 .join-in > h3 {
-  padding-top: 57px;
+  padding-top: 73px;
   margin-bottom: 20px;
   font-family: Roboto;
   font-style: normal;
@@ -494,7 +497,7 @@ main {
   margin-right: 94px;
 }
 .mailing {
-  padding-top: 57px;
+  padding-top: 72px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
